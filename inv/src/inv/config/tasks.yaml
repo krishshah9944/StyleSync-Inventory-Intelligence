@@ -1,0 +1,68 @@
+# Research Tasks for the Market Intelligence Collector (Research Agent)
+research_weather_task:
+  description: >
+    Retrieve a 14-day weather forecast for {city} and identify key weather trends that could influence seasonal clothing needs.
+    Focus on metrics like temperature, rainfall, and humidity to determine potential impacts on clothing demand.
+    Use available tools
+  expected_output: >
+    A detailed weather impact report with bullet points highlighting major weather trends for {city}.
+    Insights into how weather patterns influence clothing demand (e.g., lightweight fabrics for hot days, rain-resistant gear)
+  agent: researcher
+
+research_trends_task:
+  description: >
+    Use the web search tool to gather current fashion trends in {city}.
+    Search queries like "fashion trends in {city}" and "latest clothing styles in {city}" should be used to capture the top 10 trending items and emerging styles.
+    Use available tools
+  expected_output: >
+    A list with 10 bullet points, each describing a trending fashion item along with its context and any notable emerging styles.
+  agent: researcher
+
+research_events_task:
+  description: >
+    Search for upcoming events in {city} that might influence fashion trends.
+    Identify cultural events, festivals, or social gatherings that could drive demand for specific clothing styles.
+    Use available tools
+  expected_output: >
+    A list with 5 bullet points detailing key upcoming events (with dates) and their potential impact on local fashion trends.
+  agent: researcher
+
+# Analysis Tasks for the Fashion Trend Alchemist (Analyst Agent)
+analysis_product_trends_task:
+  description: >
+    Analyze the aggregated weather, fashion trends, and event data collected by the Research Agent.
+    Identify 3 high-potential clothing items by evaluating market gaps and emerging demand, and propose innovative product ideas.
+    Use available tools
+  expected_output: >
+    A ranked list of 3 product recommendations with detailed market gap analysis and strategic insights.
+  agent: reporting_analyst
+
+analysis_size_forecast_task:
+  description: >
+    Develop a predictive model for size demand based on historical sales data, combined with social and weather insights for {city}.
+    Recommend optimal size ratios (S, M, L, XL) to meet anticipated demand.
+    Use available tools
+  expected_output: >
+    A detailed size demand forecast matrix outlining suggested size ratios and strategic inventory recommendations.
+  agent: reporting_analyst
+
+# Optimization Tasks for the Inventory Surgeon (Final Optimization Agent)
+optimization_inventory_task:
+  description: >
+    Analyze the provided inventory CSV file to generate an Inventory Aging Report.
+    Identify overstocked items needing promotions, understocked items requiring production, and any significant size imbalances.
+    Use available tools
+  expected_output: >
+    An inventory aging dashboard with bullet points highlighting critical inventory issues and actionable recommendations.
+    Use available tools
+  agent: inventory_analyst
+
+optimization_production_plan_task:
+  description: >
+    Develop a 60-day production and restock plan that balances trend predictions, current inventory levels, and supplier lead times.
+    Incorporate safety stock calculations and adjustments for anticipated demand spikes, ensuring optimal stock levels.
+    Use available tools
+  expected_output: >
+    A detailed production calendar with optimal size ratios, safety stock levels, and clear recommendations for production and restocking.
+  agent: inventory_analyst
+
