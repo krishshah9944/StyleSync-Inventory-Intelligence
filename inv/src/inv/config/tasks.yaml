@@ -16,6 +16,7 @@ research_trends_task:
     Use available tools
   expected_output: >
     A list with 10 bullet points, each describing a trending fashion item along with its context and any notable emerging styles.
+    Commentary on why these styles are gaining popularity.
   agent: researcher
 
 research_events_task:
@@ -25,6 +26,7 @@ research_events_task:
     Use available tools
   expected_output: >
     A list with 5 bullet points detailing key upcoming events (with dates) and their potential impact on local fashion trends.
+    Forecast of which styles may see demand spikes.
   agent: researcher
 
 # Analysis Tasks for the Fashion Trend Alchemist (Analyst Agent)
