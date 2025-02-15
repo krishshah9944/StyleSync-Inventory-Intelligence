@@ -4,11 +4,14 @@
 
 StyleSync Inventory Intelligence is an AI-driven solution designed specifically for fashion retailers and inventory management systems. Leveraging Crew AI, this project analyzes inventory data to provide real-time insights, demand forecasting, and actionable recommendations to optimize stock levels and boost sales performance while minimizing deadstock.
 
+The system retrieves data from **Google Trends** and **Google Events** using **SerpAPI**, enhancing trend analysis and enabling better forecasting of customer demand. It uses Custom Tools to do the same.
+
 ## ✨ Features
 
 - 📊 **Inventory Analysis**: Monitor inventory levels and track product performance.
 - 🔥 **Actionable Insights**: Receive recommendations for restocking, promotions, and markdowns.
 - 📈 **Trend Analysis**: Understand evolving trends in product styles and consumer preferences.
+- 🔍 **Google Trends & Events Integration**: Uses SerpAPI to fetch relevant fashion trends and event data.
 - 🤖 **Crew AI Integration**: Utilizes Crew AI for advanced data processing and analytics.
 - ♻️ **Deadstock Minimization**: Helps identify slow-moving stock and suggest strategies to reduce deadstock.
 
@@ -97,5 +100,5 @@ Contributions are welcome! Feel free to submit issues or pull requests for impro
 For inquiries, please reach out via:
 
 - **LinkedIn**: [Krish Shah](https://www.linkedin.com/in/krishshah9944/)
-- **Email**: [krishshah9944@gmail.com](mailto:krishshah9944@gmail.com)
+- **Email**: [krishshah9944@gmail.com](mailto\:krishshah9944@gmail.com)
 
