@@ -1,14 +1,4 @@
 
-
-**Add your `OPENAI_API_KEY` into the `.env` file**
-
-- Modify `src/inv/config/agents.yaml` to define your agents
-- Modify `src/inv/config/tasks.yaml` to define your tasks
-- Modify `src/inv/crew.py` to add your own logic, tools and specific args
-- Modify `src/inv/main.py` to add custom inputs for your agents and tasks
-
-## Running the Project
-
 To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
 
 ```bash
