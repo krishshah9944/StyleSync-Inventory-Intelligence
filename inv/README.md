@@ -1,17 +1,5 @@
 
 
-```bash
-pip install uv
-```
-
-Next, navigate to your project directory and install the dependencies:
-
-(Optional) Lock the dependencies and install them by using the CLI command:
-```bash
-crewai install
-```
-### Customizing
-
 **Add your `OPENAI_API_KEY` into the `.env` file**
 
 - Modify `src/inv/config/agents.yaml` to define your agents
